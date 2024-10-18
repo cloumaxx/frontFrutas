@@ -1,0 +1,30 @@
+/* Estilos personalizados para los toast */
+.custom-toast .p-toast {
+    background-color: #343a40 !important;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.custom-toast .p-toast-icon-success {
+    background-color: #28a745 !important;
+}
+
+.custom-toast .p-toast-icon-error {
+    background-color: #dc3545 !important;
+}
+
+/* Diálogo personalizado */
+.custom-dialog .p-dialog-content {
+    padding: 1.5rem !important;
+}
+
+/* Botones */
+button.p-button-success {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+button.p-button-danger {
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+}
