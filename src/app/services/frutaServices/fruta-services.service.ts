@@ -8,7 +8,7 @@ import { FrutaPage } from 'src/app/Models/FrutaPage';
   providedIn: 'root'
 })
 export class FrutaService {
-  private baseUrl: string = 'http://localhost:8987/frutas'; 
+  private baseUrl: string = 'https://backendfrutas.onrender.com/frutas'; 
 
   constructor(private http: HttpClient) { }
 
